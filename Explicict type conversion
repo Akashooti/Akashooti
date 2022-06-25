@@ -1,0 +1,14 @@
+#Explicit type conversion
+
+public class Test
+{
+public static void main(string args[])
+{
+double d = 100.04;
+long l = (long)d;
+int i = (int)i;
+system.out.println("double value"+d);
+system.out.println("long vlaue"+l);
+system.out.println("int value"+i);
+}
+}
