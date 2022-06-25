@@ -1,0 +1,14 @@
+#implicit type conversion
+
+public classTest
+{
+public static void main(string args[])
+{
+int i = 100;
+long l = i;
+float f = l;
+system.out.println("int value"+i);
+system.out.println("long value"+l);
+system.out.println("float value"+f);
+}
+}
