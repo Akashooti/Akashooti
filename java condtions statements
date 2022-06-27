@@ -1,0 +1,75 @@
+Import java.i.*;
+ class sumnaturalnumbers 
+{
+public static void main(string[] args)
+{
+int num = 100,sum=0;
+for(int i=1i<=num;++i)
+{
+sum +=i;
+}
+system.out.println("sum = "+ sum);
+}
+}
+
+
+Import java.i.*;
+ class sumnaturalnumbers 
+{
+public static void main(string[] args)
+{
+int num = 100,sum=0;
+for(int i=1i<=num;++i)
+{
+sum = sum+(i*i);
+}
+system.out.println("sum = "+ sum);
+}
+}
+
+
+import java.io.*;
+class IfElse
+{
+    public static void main(string args[])
+    {
+        int x = 18;
+        int y = 20;
+        if (x > y);
+        {
+            system.out.println("x is greater than y");
+        }
+        else
+        {
+            system.out.println("y is greater than x");
+        }
+    }
+}
+
+
+
+public class ForLoop
+{
+    public static void main(string args[])
+    {
+        For(int i=1;i<=10;i++)
+        {
+            system.out.println(i);
+        }
+    }
+}
+
+
+Import java.i.*;
+ class sumnaturalnumbers 
+{
+public static void main(string[] args)
+{
+int num = 100,sum=0;
+for(int i=1i<=num;++i)
+{
+sum +=i;
+}
+system.out.println("sum = "+ sum);
+}
+}
