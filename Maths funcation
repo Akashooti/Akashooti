@@ -1,0 +1,84 @@
+import java.io.*;
+import java.util.*;
+public class math
+{
+	public static void main(String arg[])
+	{
+		double y=625,x=12.49,a=6,b=-2,z=5,s=50,log=24;
+		int ch;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Choice");
+		System.out.println("1.Abs");
+		System.out.println("2.ceil");
+		System.out.println("3.floor");
+		System.out.println("4.sqrt");
+		System.out.println("5.cbrt");
+		System.out.println("6.min");
+		System.out.println("7.max");
+		System.out.println("8.pow");
+		System.out.println("9.exp");
+		System.out.println("10.expm1");
+		System.out.println("11.hypot");
+		System.out.println("12.log");
+		System.out.println("13.log10");
+		System.out.println("14.log1p");
+		System.out.println("15.sin");
+		System.out.println("16.cos");
+		System.out.println("17.tan");
+		System.out.println("18.sinh");
+		System.out.println("19.cosh");
+		System.out.println("20.tanh");
+		System.out.println("21.round");		
+
+		ch=sc.nextInt();
+		switch(ch)
+		{
+			case 1:	System.out.println("Math.abs(x)="+Math.abs(x));
+			break;
+			case 2:	System.out.println("Math.ceil(x)="+Math.ceil(x));
+			break;
+			case 3:	System.out.println("Math.floor(x)="+Math.floor(x));
+			break;
+			case 4:	System.out.println("Math.sqrt(y)="+Math.sqrt(y));
+			break;
+			case 5:	System.out.println("Math.cbrt(y)="+Math.cbrt(y));
+			break;
+			case 6:	System.out.println("Math.min(x,y)="+Math.min(x,y));
+			break;
+			case 7:	System.out.println("Math.max(x,y)="+Math.max(x,y));
+			break;
+			case 8:	System.out.println("Math.pow(a,b)="+Math.pow(a,b));
+			break;
+			case 9:	System.out.println("Math.exp(z)="+Math.exp(z));
+			break;
+			//System.out.println("Math.exp(-4)*Math.exp(-2)="+Math.exp(-4)*Math.exp(-2));
+			case 10:	System.out.println("Math.expm1(2)="+Math.expm1(2));
+			break;
+			case 11:	System.out.println("Math.hypot(6,8)="+Math.hypot(3,7)); //works for both perfect and non perfect sqrt val
+			break;
+			case 12:	System.out.println("Math.log(log)="+Math.log(log));//doesnt work for -ve val
+			break;
+			case 13:	System.out.println("Math.log10(log)="+Math.log10(log));
+			break;
+			case 14:	System.out.println("Math.log1p(log)="+Math.log1p(log));
+			break;
+			case 15:	System.out.println("Math.sin(s)="+Math.sin(s));
+			break;
+			case 16:	System.out.println("Math.cos(s)="+Math.cos(s));
+			break;
+			case 17:	System.out.println("Math.tan(s)="+Math.tan(s));
+			break;
+			case 18:	System.out.println("Math.sinh(s)="+Math.sinh(s));
+			break;
+			case 19:	System.out.println("Math.cosh(s)="+Math.cosh(s));
+			break;
+			case 20:	System.out.println("Math.tanh(s)="+Math.tanh(s));
+			break;
+			case 21:	System.out.println("Math.round(x)="+Math.round(x));
+			break;
+			default:System.out.println("Invalid");
+		}
+			
+	}
+			
+}
